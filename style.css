@@ -1,0 +1,62 @@
+ body {
+   background-color: #0F3D3E;
+   height: 100vh;
+   width: 100vw;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+     background-color: #779E65;
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     padding: 10px;
+     margin: 10px;
+     border-radius: 10px;
+}
+p {
+    color: white;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    
+}
+button{
+    font-size: 20px;
+    font-weight: bold;
+    height: 10vh;
+    width: 30vw;
+    border: 1px solid grey;
+    border-radius: 15px;
+    background-color: #FFFAF0;
+}
+button:hover{
+    height: 10vh;
+    width: 30vw;
+    border: 1px solid grey;
+    border-radius: 15px;
+    background-color: black;
+    color: aliceblue;
+}
+h2 {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.player-won{
+    color: green;
+}
+.computer-won{
+    color: red;
+}
+.tie{
+    color:  yellow;
+} 
+.running-score {
+    color: white;
+    border-radius: 10px;
+    background-color:#5A8F7B;
+    display: flex;
+    justify-content: space-around;
+    font-size: 40px;
+    padding: 10px 0px
+}
